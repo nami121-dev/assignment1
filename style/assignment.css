@@ -82,12 +82,9 @@
 
 }
 
-.button1 {
-    padding: 32px;
 
-}
 
-.btn-primary {
+.btn-primary1 {
     padding: 17px 30px 17px 30px;
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
@@ -100,7 +97,41 @@
 
     background: rgb(84, 144, 245);
     border: 0px;
+    margin: 5px 32px;
 }
+.btn-primary2 {
+    padding: 17px 30px 17px 30px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+
+    background: rgb(9, 161, 92);
+    margin: 32px;
+    border: 0px;
+}
+.btn-primary3 {
+    padding: 17px 30px 17px 30px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+
+background: rgb(255, 194, 57);
+    border: 0px;
+    margin: 32px;
+}
+/* .card1 .card2 .card3{
+    padding: 32px;
+ } */
 
 .card-section {
     margin: 80px 240px;
@@ -570,3 +601,31 @@ letter-spacing: 0%;
 text-align: center;
 margin-top: 36px;
 }
+.footer-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0%;
+text-align: left;
+margin: 75px 1080px ;
+}
+/* .icon-container{
+    display: flex;
+    gap: 36px;
+    margin: 207px 1108px;
+} */
+/* footer{
+    margin: 75px 240px;
+} */
+ .footer-icon-container{
+    display: flex;
+    gap: 36px;
+    margin: 96px 1200px;
+    
+ }
+ .foot-icon{
+    width: 36px;
+    height:36px ;
+ }
