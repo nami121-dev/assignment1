@@ -41,11 +41,16 @@
     background-repeat: no-repeat; */
     display: flex;
     justify-content: space-between;
-    margin: 120px;
+    margin: 240px;
+    padding: 120px 150px;
+    gap: 96px;
 
 
 
 }
+/* .banner .banner-profile{
+    gap: 64px;
+} */
 
 .banner-container .banner .subtitle {
     color: rgba(14, 14, 14, 0.5);
@@ -68,4 +73,153 @@
     text-align: left;
     margin-bottom: 24px;
     width: 933px;
+
 }
+
+.button1 {
+    padding: 32px;
+
+}
+
+.btn-primary {
+    padding: 17px 30px 17px 30px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+
+    background: rgb(84, 144, 245);
+    border: 0px;
+}
+
+.card-section {
+    margin: 80px 240px;
+}
+
+.card-box {
+    width: 1920px;
+
+}
+
+.card-box .section-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-box .section-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+
+ .card-container .card {
+    width: 615px;
+    height: 488px;
+    /* box-sizing: border-box; */
+    border-radius: 24px;
+
+    background: rgba(84, 144, 245, 0.2);
+    margin: 48px;
+}
+
+ .card-container .card1{
+    width: 615px;
+    height: 488px;
+    /* box-sizing: border-box; */
+    border-radius: 24px;
+
+    background: rgb(198, 228, 214);
+    margin: 48px;
+
+}
+
+ .card-container .card2 {
+    width: 615px;
+    height: 488px;
+    /* box-sizing: border-box; */
+    border-radius: 24px;
+
+    background: rgb(247, 235, 207);
+    margin: 48px;
+}
+
+.card-container .card .card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 30px;
+}
+.card-container .card1 .card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 30px;
+}
+.card-container .card2 .card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 30px;
+}
+
+.card-container .card .card-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 30px;
+}
+.card-container .card1 .card-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 30px;
+}
+.card-container .card2 .card-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 30px;
+}
+.card-container{
+    display: flex;
+    gap:36px;
+}
+
