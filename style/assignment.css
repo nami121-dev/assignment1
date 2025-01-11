@@ -48,6 +48,7 @@
 
 
 }
+
 /* .banner .profile-container .banner-profile{
    width: 712px;
    height: 492px;
@@ -103,7 +104,7 @@
 
 .card-box {
     width: 1920px;
-    
+
 }
 
 .card-box .section-title {
@@ -129,7 +130,7 @@
     /* margin-left: 240px; */
 }
 
- .card-container .card {
+.card-container .card {
     width: 615px;
     height: 488px;
     /* box-sizing: border-box; */
@@ -139,7 +140,7 @@
     /* margin: 48px; */
 }
 
- .card-container .card1{
+.card-container .card1 {
     width: 615px;
     height: 488px;
     /* box-sizing: border-box; */
@@ -150,7 +151,7 @@
 
 }
 
- .card-container .card2 {
+.card-container .card2 {
     width: 615px;
     height: 488px;
     /* box-sizing: border-box; */
@@ -170,6 +171,7 @@
     text-align: left;
     margin: 30px;
 }
+
 .card-container .card1 .card-title {
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
@@ -180,6 +182,7 @@
     text-align: left;
     margin: 30px;
 }
+
 .card-container .card2 .card-title {
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
@@ -201,6 +204,7 @@
     text-align: left;
     margin: 30px;
 }
+
 .card-container .card1 .card-description {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
@@ -211,6 +215,7 @@
     text-align: left;
     margin: 30px;
 }
+
 .card-container .card2 .card-description {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
@@ -221,13 +226,97 @@
     text-align: left;
     margin: 30px;
 }
-.card-container{
+
+.card-container {
     display: flex;
-    gap:36px;
+    gap: 36px;
     margin-top: 32px;
-  
+
 }
-.icon-container .icon{
+
+.icon-container .icon {
     margin: 48px;
 }
 
+.news .news-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.news .news-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.news {
+    margin: auto 240px;
+}
+
+.sat-section {
+   
+   margin: 32px 240px;
+}
+.sat-info{
+    display: flex;
+    gap:48px ;
+}
+
+.sat-section .sat-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.sat-section .sat-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 18px;
+}
+.sat-icon-container .sat-icon{
+    background: url(8f195aac6f4a2c38bbf72c1fbeddbf9b);
+}
+.date{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+gap: 18px;
+margin-top: 18px;
+}
+.time{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    gap: 18px;
+    margin-top: 18px;
+}
+.date-time-container{
+    display:flex;
+    gap: 18px;
+}
