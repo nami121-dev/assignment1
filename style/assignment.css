@@ -459,7 +459,7 @@
     letter-spacing: 0%;
     text-align: center;
     width: 345px;
-    height: 170px;
+    height: 153px;
     padding: 50px;
 }
 
@@ -481,7 +481,7 @@
     letter-spacing: 0%;
     text-align: center;
     width: 345px;
-    height: 170px;
+    height: 153px;
     padding: 50px;
 
 }
@@ -575,6 +575,7 @@ input[placeholder] {
     flex-direction: row;
     gap: 0px;
     margin: 36px 630px;
+    justify-content: center;
 
 }
 
@@ -600,7 +601,7 @@ input[type="button"] {
     height: 85px;
     border: none;
     gap: 0px;
-    margin-right: 300px;
+    margin-right: 100px;
 
 }
 
