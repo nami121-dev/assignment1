@@ -118,7 +118,7 @@
     border-radius: 8px;
 
     background: rgb(9, 161, 92);
-    margin: 5px 32px;
+    margin: 20px 32px;
     border: 0px;
 }
 
@@ -324,7 +324,7 @@
     border-radius: 24px; */
     /* box-sizing: border-box;
      border: 1px solid rgba(14, 14, 14, 0.15); */
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 3px 3px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
 
     /* background: rgb(255, 255, 255); */
@@ -426,16 +426,18 @@
 }
 
 .box-section {
-    margin: 120px 240px;
-    padding: 0px 156px;
+    margin: 96px 192px;
+    /* padding: 0px 156px; */
+    width: 1536px;
+    height: 556px;
 }
 
 .box-title {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
-    font-size: 60px;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 72px;
+    line-height: 57px;
     letter-spacing: 0%;
     text-align: center;
 }
@@ -443,9 +445,9 @@
 .box-description {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 28px;
     letter-spacing: 0%;
     text-align: center;
     margin: 36px 240px;
@@ -456,7 +458,7 @@
     display: flex;
     gap: 36px;
     /* margin: 0px 100px; */
-    margin: 120px 240px;
+    margin: 38px 124px;
 }
 
 .box {
@@ -468,14 +470,14 @@
     background: rgb(255, 255, 255);
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 65px;
+    line-height: 57px;
     letter-spacing: 0%;
     text-align: center;
-    width: 345px;
+    width: 288px;
     height: 153px;
-    padding: 50px;
+    /* padding: 50px; */
 }
 
 .box2 {
