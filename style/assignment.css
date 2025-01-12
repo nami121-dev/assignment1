@@ -317,7 +317,7 @@
 
     display: flex;
     gap: 48px;
-    margin: 36px 0px;
+    margin: 36px 10px;
     padding: 72px;
 }
 
@@ -349,9 +349,9 @@
     margin-bottom: 48px;
 }
 
-.sat-icon-container .sat-icon {
+/* .sat-icon-container .sat-icon {
     background: url(8f195aac6f4a2c38bbf72c1fbeddbf9b);
-}
+} */
 
 .date {
     color: rgba(14, 14, 14, 0.7);
@@ -583,7 +583,7 @@ input[type="email"] {
     width: 900px;
     height: 84px;
     margin-left: 500px;
-    
+
 }
 
 input[type="button"] {
@@ -639,10 +639,19 @@ input[type="button"] {
     display: flex;
     gap: 36px;
     margin: 96px 1200px;
+    
 
 }
 
 .foot-icon {
     width: 36px;
     height: 36px;
+   
+}
+footer{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
 }
