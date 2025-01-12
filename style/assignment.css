@@ -462,7 +462,7 @@
 }
 
 .box {
-    box-sizing: border-box;
+    
     /* border: 1px solid rgba(14, 14, 14, 0.15); */
     border-radius: 16px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -485,45 +485,46 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
 
-    box-sizing: border-box;
+   
     /* border: 1px solid rgba(14, 14, 14, 0.15); */
     border-radius: 16px;
 
     background: rgb(198, 228, 214);
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 65px;
+    line-height: 57px;
     letter-spacing: 0%;
     text-align: center;
-    width: 345px;
+    width: 288px;
     height: 153px;
-    padding: 50px;
+    /* padding: 50px; */
 
 }
 
 input[type="text"] {
-    width: 1530px;
-    height: 96px;
+    /* width: 1238px; */
+    width: 80%;
+    height: 76px;
     box-sizing: border-box;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 
 
-    padding: 30px 60px 30px 60px;
-    margin: 48px 186px;
+    /* padding: 30px 60px 30px 60px; */
+    margin: 38px 140px;
     /* box-sizing: border-box; */
     /* border: 1px solid rgba(14, 14, 14, 0.15); */
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
+    border: 0px;
 }
 
 input[placeholder] {
     color: rgba(14, 14, 14, 0.3);
     font-family: Fira Sans;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0%;
+    line-height: 28px;
     text-align: center;
 
 }
@@ -531,20 +532,20 @@ input[placeholder] {
 .done-btn {
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 600;
-    line-height: 33px;
-    letter-spacing: 0%;
-    text-align: left;
+    line-height: 26px;
+    text-align: center;
     box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.1);
+    /* border: 1px solid rgba(14, 14, 14, 0.1); */
     border-radius: 8px;
 
     background: rgb(0, 106, 80);
-    padding: 25px 34px 25px 34px;
-    margin: 48px 840px 0px;
-    height: 84px;
-    width: 225px;
+    /* padding: 25px 34px 25px 34px; */
+    margin: 32px 676px 0px;
+    height: 67px;
+    width: 181px;
+    border: 0px;
 }
 
 .newsletter-section .newsletter-title {
