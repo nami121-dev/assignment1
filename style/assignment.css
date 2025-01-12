@@ -67,9 +67,9 @@
 .banner-container .banner .subtitle {
     color: rgba(14, 14, 14, 0.5);
     font-family: Fira Sans;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 500;
-    line-height: 44px;
+    line-height: 34px;
     letter-spacing: 0%;
     text-align: left;
     margin-bottom: 16px;
@@ -642,12 +642,11 @@ input[type="button"] {
 .footer-title {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
-    line-height: 57px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin: 75px 1080px;
+    line-height: 45px;
+    text-align: center;
+    margin: 60px 800px 38px;
 }
 
 /* .icon-container{
@@ -660,22 +659,30 @@ input[type="button"] {
 } */
 .footer-icon-container {
     display: flex;
+    justify-content: center;
     gap: 36px;
-    margin: 96px 1200px;
+    margin: 20px 0px;
+    /* margin: 96px 1200px; */
 
 
 }
 
 .foot-icon {
-    width: 36px;
-    height: 36px;
+    width: 28px;
+    height: 28px;
 
+}
+hr{
+    width: 75%;
+    text-align: center;
 }
 
 footer {
     box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.35);
+    /* border-radius: 16px; */
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+   
 
     background: rgb(255, 255, 255);
 }
